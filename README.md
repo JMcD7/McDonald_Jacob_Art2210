@@ -1,6 +1,6 @@
 # McDonald_Jacob_Art2210
 
-[Clock Link](https://jmcd7.github.io/McDonald_Jacob_Art2210/)
+[Clock Link](https://jmcd7.github.io/McDonald_Jacob_Art2210/Sep30/Sep30.html)
 
 [Project Link](https://creativecodingart2210fall2019section2.github.io/McDonald_Jacob_Art2210/McDonald_Jacob_ART2210_Self-portrait_Fall2019/project.html)
 
