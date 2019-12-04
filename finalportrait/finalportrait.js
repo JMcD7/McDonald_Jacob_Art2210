@@ -1,0 +1,243 @@
+function setup(){
+    
+    createCanvas(600,600);
+    background(115,0,0);
+}
+
+function draw(){
+   
+    //body
+   fill(251,247,245);
+   stroke(0,0,0);
+   beginShape();
+   vertex(0,540);
+   vertex(160,480);
+   vertex(440,480);
+   vertex(600,540);
+   vertex(600,600);
+   vertex(0,600);
+   endShape(CLOSE);
+
+   //outerhood
+   fill(251,247,245);
+   stroke(0,0,0);
+   beginShape();
+   vertex(300,10);
+   vertex(340,20);
+   vertex(420,80);
+   vertex(460,140);
+   vertex(480,220);
+   vertex(490,300);
+   vertex(490,360);
+   vertex(480,420);
+   vertex(460,480);
+   vertex(410,560);
+   vertex(360,580);
+   vertex(300,590);
+   vertex(240,580);
+   vertex(190,560);
+   vertex(140,480);
+   vertex(120,420);
+   vertex(110,360);
+   vertex(110,300);
+   vertex(120,220);
+   vertex(140,140);
+   vertex(180,80);
+   vertex(260,20);
+   endShape(CLOSE);
+   
+    //hood
+    fill(25,25,25);
+    stroke(0,0,0);
+    beginShape();
+    vertex(300,80);
+    vertex(320,90);
+    vertex(360,120);
+    vertex(400,180);
+    vertex(440,240);
+    vertex(460,300);
+    vertex(480,360);
+    vertex(470,400);
+    vertex(440,440);
+    vertex(400,480);
+    vertex(360,500);
+    vertex(320,520);
+    vertex(280,520);
+    vertex(240,500);
+    vertex(200,480);
+    vertex(160,440);
+    vertex(130,400);
+    vertex(120,360);
+    vertex(140,300);
+    vertex(160,240);
+    vertex(200,180);
+    vertex(240,120);
+    vertex(280,90);
+    endShape(CLOSE);
+
+    //mask
+    fill(115,0,0);
+    stroke(0,0,0);
+    strokeWeight(2);
+    beginShape();
+    vertex(140,320);
+    vertex(140,360);
+    vertex(160,400);
+    vertex(200,440);
+    vertex(240,460);
+    vertex(260,480);
+    vertex(300,490);
+    vertex(340,480);
+    vertex(360,460);
+    vertex(400,440);
+    vertex(440,400);
+    vertex(460,360);
+    vertex(460,320);
+    curveVertex(460,320);
+    curveVertex(460,320);
+    curveVertex(420,330);
+    curveVertex(370,320);
+    curveVertex(340,300);
+    curveVertex(340,300);
+    vertex(320,280);
+    vertex(280,280);
+    vertex(260,300);
+    curveVertex(260,300);
+    curveVertex(260,300);
+    curveVertex(230,320);
+    curveVertex(180,330);
+    curveVertex(140,320);
+    curveVertex(140,320);
+    endShape(CLOSE);
+
+    //mouth
+    fill(32,32,32);
+    stroke(0,0,0);
+    beginShape();
+    vertex(280,360);
+    vertex(320,360);
+    vertex(360,340);
+    vertex(420,360);
+    vertex(400,420);
+    vertex(340,460);
+    vertex(300,440);
+    vertex(260,460);
+    vertex(200,420);
+    vertex(180,360);
+    vertex(240,340);
+    endShape(CLOSE);
+
+    //leftfang
+    fill(255,255,255);
+    stroke(0,0,0);
+    beginShape();
+    vertex(240,340);
+    vertex(230,370);
+    vertex(210,390);
+    vertex(170,400);
+    vertex(195,375);
+    vertex(200,353);
+    endShape(CLOSE);
+
+    //rightfang
+    fill(255,255,255);
+    stroke(0,0,0);
+    beginShape();
+    vertex(360,340);
+    vertex(370,370);
+    vertex(390,390);
+    vertex(430,400);
+    vertex(405,375);
+    vertex(400,353);
+    endShape(CLOSE);
+
+    //middleteeth
+    fill(255,255,255);
+    stroke(0,0,0);
+    triangle(260,460,280,420,300,440);
+    triangle(320,420,340,460,300,441);
+    triangle(300,360,290,370,280,360);
+    triangle(300,360,310,370,320,360);
+    triangle(320,360,330,390,360,340);
+    triangle(240,340,270,390,280,360);
+    triangle(200,420,220,400,220,433);
+    triangle(220,433,240,400,240,447);
+    triangle(240,447,260,420,260,459);
+    triangle(400,420,380,400,380,433);
+    triangle(380,433,360,400,360,447);
+    triangle(360,447,340,420,340,460);
+
+    //nose
+    noFill();
+    stroke(0,0,0);
+    beginShape();
+    vertex(260,320);
+    vertex(260,330);
+    vertex(270,340);
+    endShape();
+    beginShape();
+    vertex(340,320);
+    vertex(340,330);
+    vertex(330,340);
+    endShape();
+
+    //linework
+    noFill();
+    stroke(0,0,0);
+    line(330,80,360,100,);
+    line(360,100,390,140);
+
+    line(480,420,440,460);
+    line(120,420,160,470);
+    line(180,480,220,520);
+    line(220,520,280,540);
+    line(435,520,500,540);
+    line(110,520,40,560);
+    line(163,600,217,571);
+
+    line(140,240,160,200);
+    line(160,200,190,160);
+
+    line(370,495,388,567);
+    line(480,220,470,260);
+
+    line(380,600,420,580);
+    line(420,580,440,540);
+
+    //buttonshade
+    fill(0);
+    stroke(0,0,0);
+    circle(351,532,23);
+    circle(361,562,23);
+    //buttons
+    fill(255,255,255);
+    stroke(0,0,0);
+    circle(350,530,23);
+    circle(360,560,23);
+
+    //symbol
+    noFill();
+    stroke(115,0,0);
+    beginShape();
+    vertex(260,128);
+    vertex(290,148);
+    vertex(280,158);
+    vertex(300,188);
+    vertex(320,158);
+    vertex(310,148);
+    vertex(340,128);
+    endShape();
+    line(300,110,300,140);
+
+    //chin
+    noFill();
+    stroke(0);
+    beginShape();
+    vertex(280,470);
+    vertex(290,460);
+    vertex(310,460);
+    vertex(320,470);
+    endShape();
+}
+
+
